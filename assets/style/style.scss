@@ -169,6 +169,7 @@ $OpenSans: 'Open Sans', sans-serif;
         }
     }
     .galery{
+        margin-bottom: 108px;
 
     &__grid{
         display: grid;
@@ -230,3 +231,63 @@ $OpenSans: 'Open Sans', sans-serif;
         }
     }
     }
+
+.people{
+    margin-bottom: 114px;
+    
+    &__flexCont{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    &__1block{
+        display: inline;
+    }
+    &__img{
+        margin-bottom: 30px;
+    }
+    &__name{
+        line-height: 28px;
+        font-size: 24px;
+        font-family: $Raleway;
+        font-weight: 700;
+        color: #2D3033;
+        margin-bottom: 5px;
+    }
+    &__place{
+        line-height: 21px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: $Raleway;
+        text-transform: uppercase;
+        color: #FF4343;
+    }
+    &__comment{
+        color: #6C7279;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: $Raleway;
+        line-height: 21px;
+        max-width: 270px;
+        width: 100%; 
+        margin-bottom: 37px;
+    }
+    &__links{
+        display: flex;
+        column-gap: 6px;
+
+        &_icon1{
+            border: 1px solid #C6CBCD;
+            padding: 10px 15px 11px 14px;
+        }
+        &_icon2{
+            border: 1px solid #C6CBCD;
+            padding: 11px 10px 12px 9px;
+        }
+        &_icon3{
+            border: 1px solid #C6CBCD;
+            padding: 10px 11px 11px 10px;
+        }
+    }
+}

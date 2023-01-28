@@ -162,6 +162,9 @@
   background-color: rgba(255, 67, 67, 0.8);
 }
 
+.galery {
+  margin-bottom: 108px;
+}
 .galery__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -221,4 +224,64 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.people {
+  margin-bottom: 114px;
+}
+.people__flexCont {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.people__1block {
+  display: inline;
+}
+.people__img {
+  margin-bottom: 30px;
+}
+.people__name {
+  line-height: 28px;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #2D3033;
+  margin-bottom: 5px;
+}
+.people__place {
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #FF4343;
+}
+.people__comment {
+  color: #6C7279;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  line-height: 21px;
+  max-width: 270px;
+  width: 100%;
+  margin-bottom: 37px;
+}
+.people__links {
+  display: flex;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+}
+.people__links_icon1 {
+  border: 1px solid #C6CBCD;
+  padding: 10px 15px 11px 14px;
+}
+.people__links_icon2 {
+  border: 1px solid #C6CBCD;
+  padding: 11px 10px 12px 9px;
+}
+.people__links_icon3 {
+  border: 1px solid #C6CBCD;
+  padding: 10px 11px 11px 10px;
 }/*# sourceMappingURL=style.css.map */
